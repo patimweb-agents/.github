@@ -20,23 +20,22 @@ desselben Vertrags — gleiche Tools, gleiche Parameter, gleiches Konfigurations
 
 ## Nur pi
 
-[`pi-sentinel`](https://github.com/patimweb-agents/pi-sentinel) ·
-[`pi-jev`](https://github.com/patimweb-agents/pi-jev) (Entscheidungsschicht) ·
-[`pi-mindplace`](https://github.com/patimweb-agents/pi-mindplace) ·
-[`pi-email`](https://github.com/patimweb-agents/pi-email) ·
-[`pi-zep`](https://github.com/patimweb-agents/pi-zep) ·
-[`pi-lanes`](https://github.com/patimweb-agents/pi-lanes) ·
-[`pi-tape`](https://github.com/patimweb-agents/pi-tape) ·
-[`pi-cron`](https://github.com/patimweb-agents/pi-cron) ·
-[`pi-localsend`](https://github.com/patimweb-agents/pi-localsend) ·
-[`pi-nodejs-bestpractices`](https://github.com/patimweb-agents/pi-nodejs-bestpractices) ·
-[`pi-cap-bestpractices`](https://github.com/patimweb-agents/pi-cap-bestpractices)
+| Plugin | Was es tut |
+|---|---|
+| [`pi-email`](https://github.com/patimweb-agents/pi-email) | IMAP/SMTP: lesen, suchen, senden, triagieren |
+| [`pi-cron`](https://github.com/patimweb-agents/pi-cron) | geplante Prompts |
+| [`pi-localsend`](https://github.com/patimweb-agents/pi-localsend) | Dateien zwischen Geräten im Netz senden |
+| [`pi-mindplace`](https://github.com/patimweb-agents/pi-mindplace) | räumliches Gedächtnis der Codebase |
+| [`pi-nodejs-bestpractices`](https://github.com/patimweb-agents/pi-nodejs-bestpractices) | Node.js-Skills für den Agenten |
+| [`pi-cap-bestpractices`](https://github.com/patimweb-agents/pi-cap-bestpractices) | SAP-CAP-Skills für den Agenten |
 
 ## Nur Hermes
 
-[`hermes-sapgui`](https://github.com/patimweb-agents/hermes-sapgui) (SAP GUI Scripting) ·
-[`hermes-homeassistant-pe-adapter`](https://github.com/patimweb-agents/hermes-homeassistant-pe-adapter) (Voice PE, Mistral Voxtral) ·
-[`hermes-mistral-voice`](https://github.com/patimweb-agents/hermes-mistral-voice) (Platzhalter)
+| Plugin | Was es tut |
+|---|---|
+| [`hermes-sapgui`](https://github.com/patimweb-agents/hermes-sapgui) | SAP GUI Scripting gegen das echte GUI-Fenster |
+| [`hermes-homeassistant-pe-adapter`](https://github.com/patimweb-agents/hermes-homeassistant-pe-adapter) | Voice PE: Wake Word, Mistral Voxtral STT/TTS |
+| [`hermes-mistral-voice`](https://github.com/patimweb-agents/hermes-mistral-voice) | Platzhalter, noch nicht gebaut |
 
 ## Installation
 
@@ -53,3 +52,7 @@ Alle `pi`-Pakete liegen unter dem npm-Scope [`@patimweb`](https://www.npmjs.com/
 ## Lizenzen
 
 MIT, sofern im jeweiligen Repository nicht anders angegeben.
+
+---
+
+Stand: 2026-10-30 · 20 Repositories
